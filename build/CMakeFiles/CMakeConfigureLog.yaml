@@ -1,0 +1,820 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/gcc/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/3.29.0-rc4/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/gcc/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/3.29.0-rc4/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-vzdu5c"
+      binary: "C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-vzdu5c"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-vzdu5c'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/gcc/bin/make.exe -f Makefile cmTC_4940b/fast
+        C:/gcc/bin/make.exe  -f CMakeFiles/cmTC_4940b.dir/build.make CMakeFiles/cmTC_4940b.dir/build
+        make.exe[1]: Entering directory 'C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-vzdu5c'
+        Building C object CMakeFiles/cmTC_4940b.dir/CMakeCCompilerABI.c.obj
+        C:/gcc/bin/gcc.exe   -v -o CMakeFiles/cmTC_4940b.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCCompilerABI.c"
+        Built by Equation Solution <http://www.Equation.com>.
+        Using built-in specs.
+        COLLECT_GCC=C:\\gcc\\bin\\gcc.exe
+        Target: i686-pc-mingw32
+        Configured with: ../gcc-5.2.0-mingw/configure --host=i686-pc-mingw32 --build=x86_64-unknown-linux-gnu --target=i686-pc-mingw32 --prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gcc/5.2.0 --with-gcc --with-gnu-as --with-gnu-ld --with-cloog=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/cloog --with-gmp=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gmp --with-mpfr=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpfr --with-mpc=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpc --with-isl=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/isl --enable-cloog-backend=isl --with-sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/6-20150531 --disable-shared --disable-nls --disable-tls --disable-libgcc2 --disable-win32-registry --enable-build-with-cxx --enable-libquadmath-support --enable-libquadmath --enable-languages=c,c++,fortran --disable-checking --enable-libgomp --enable-threads=win32 --enable-lto --enable-static --enable-shared=lto-plugin --enable-sjlj-exceptions --enable-plugins --enable-ld=yes
+        Thread model: win32
+        gcc version 5.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4940b.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro'
+         c:/gcc/bin/../libexec/gcc/i686-pc-mingw32/5.2.0/cc1.exe -quiet -v -iprefix c:\\gcc\\bin\\../lib/gcc/i686-pc-mingw32/5.2.0/ C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=pentiumpro -auxbase-strip CMakeFiles/cmTC_4940b.dir/CMakeCCompilerABI.c.obj -version -o C:\\Users\\fotava\\AppData\\Local\\Temp\\cc3DZG3J.s
+        GNU C11 (GCC) version 5.2.0 (i686-pc-mingw32)
+        	compiled by GNU C version 6.0.0 20150531 (experimental), GMP version 5.1.0, MPFR version 3.1.1, MPC version 1.0.1
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "c:/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/5.2.0/include"
+        ignoring nonexistent directory "/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/6-20150531/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gcc/5.2.0/lib/gcc/i686-pc-mingw32/5.2.0/../../../../include"
+        ignoring duplicate directory "c:/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/5.2.0/include-fixed"
+        ignoring duplicate directory "c:/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/include"
+        ignoring nonexistent directory "/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/6-20150531/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         c:\\gcc\\bin\\../lib/gcc/i686-pc-mingw32/5.2.0/include
+         c:\\gcc\\bin\\../lib/gcc/i686-pc-mingw32/5.2.0/include-fixed
+         c:\\gcc\\bin\\../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/include
+        End of search list.
+        GNU C11 (GCC) version 5.2.0 (i686-pc-mingw32)
+        	compiled by GNU C version 6.0.0 20150531 (experimental), GMP version 5.1.0, MPFR version 3.1.1, MPC version 1.0.1
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 1d1bf4db216a02ae3b7e5a705a51f2d4
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4940b.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro'
+         c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_4940b.dir/CMakeCCompilerABI.c.obj C:\\Users\\fotava\\AppData\\Local\\Temp\\cc3DZG3J.s
+        GNU assembler version 2.24.51 (i686-pc-mingw32) using BFD version (GNU Binutils) 2.24.51.20140712
+        COMPILER_PATH=c:/gcc/bin/../libexec/gcc/i686-pc-mingw32/5.2.0/;c:/gcc/bin/../libexec/gcc/;c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/bin/
+        EQ_LIBRARY_PATH=c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/;c:/gcc/bin/../lib/gcc/;C:/Users/fotava/gcc/i686-pc-mingw32/lib/;c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/lib/;c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4940b.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro'
+        Linking C executable cmTC_4940b.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_4940b.dir/objects.a
+        C:/gcc/bin/ar.exe qc CMakeFiles/cmTC_4940b.dir/objects.a @CMakeFiles/cmTC_4940b.dir/objects1.rsp
+        C:/gcc/bin/gcc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles/cmTC_4940b.dir/objects.a -Wl,--no-whole-archive -o cmTC_4940b.exe -Wl,--out-implib,libcmTC_4940b.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        Built by Equation Solution <http://www.Equation.com>.
+        Using built-in specs.
+        COLLECT_GCC=C:/gcc/bin/gcc.exe
+        COLLECT_LTO_WRAPPER=c:/gcc/bin/../libexec/gcc/i686-pc-mingw32/5.2.0/lto-wrapper.exe
+        Target: i686-pc-mingw32
+        Configured with: ../gcc-5.2.0-mingw/configure --host=i686-pc-mingw32 --build=x86_64-unknown-linux-gnu --target=i686-pc-mingw32 --prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gcc/5.2.0 --with-gcc --with-gnu-as --with-gnu-ld --with-cloog=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/cloog --with-gmp=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gmp --with-mpfr=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpfr --with-mpc=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpc --with-isl=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/isl --enable-cloog-backend=isl --with-sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/6-20150531 --disable-shared --disable-nls --disable-tls --disable-libgcc2 --disable-win32-registry --enable-build-with-cxx --enable-libquadmath-support --enable-libquadmath --enable-languages=c,c++,fortran --disable-checking --enable-libgomp --enable-threads=win32 --enable-lto --enable-static --enable-shared=lto-plugin --enable-sjlj-exceptions --enable-plugins --enable-ld=yes
+        Thread model: win32
+        gcc version 5.2.0 (GCC) 
+        COMPILER_PATH=c:/gcc/bin/../libexec/gcc/i686-pc-mingw32/5.2.0/;c:/gcc/bin/../libexec/gcc/;c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/bin/
+        EQ_LIBRARY_PATH=c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/;c:/gcc/bin/../lib/gcc/;C:/Users/fotava/gcc/i686-pc-mingw32/lib/;c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/lib/;c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4940b.exe' '-mtune=generic' '-march=pentiumpro'
+         c:/gcc/bin/../libexec/gcc/i686-pc-mingw32/5.2.0/collect2.exe -plugin c:/gcc/bin/../libexec/gcc/i686-pc-mingw32/5.2.0/liblto_plugin-0.dll -plugin-opt=c:/gcc/bin/../libexec/gcc/i686-pc-mingw32/5.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\fotava\\AppData\\Local\\Temp\\ccUEQ54l.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/6-20150531 -Bdynamic -o cmTC_4940b.exe C:/Users/fotava/gcc/i686-pc-mingw32/lib/crt2.o c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/crtbegin.o -Lc:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0 -Lc:/gcc/bin/../lib/gcc -LC:/Users/fotava/gcc/i686-pc-mingw32/lib -Lc:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/lib -Lc:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../.. -v --whole-archive CMakeFiles/cmTC_4940b.dir/objects.a --no-whole-archive --out-implib libcmTC_4940b.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/crtend.o
+        collect2 version 5.2.0
+        c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/bin/ld.exe -plugin c:/gcc/bin/../libexec/gcc/i686-pc-mingw32/5.2.0/liblto_plugin-0.dll -plugin-opt=c:/gcc/bin/../libexec/gcc/i686-pc-mingw32/5.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\fotava\\AppData\\Local\\Temp\\ccUEQ54l.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/6-20150531 -Bdynamic -o cmTC_4940b.exe C:/Users/fotava/gcc/i686-pc-mingw32/lib/crt2.o c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/crtbegin.o -Lc:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0 -Lc:/gcc/bin/../lib/gcc -LC:/Users/fotava/gcc/i686-pc-mingw32/lib -Lc:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/lib -Lc:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../.. -v --whole-archive CMakeFiles/cmTC_4940b.dir/objects.a --no-whole-archive --out-implib libcmTC_4940b.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/crtend.o
+        GNU ld (GNU Binutils) 2.24.51.20140712
+        make.exe[1]: Leaving directory 'C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-vzdu5c'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:134 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/include]
+          add: [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/include-fixed]
+          add: [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/include]
+        end of search list found
+        collapse include dir [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/include] ==> [C:/gcc/lib/gcc/i686-pc-mingw32/5.2.0/include]
+        collapse include dir [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/include-fixed] ==> [C:/gcc/lib/gcc/i686-pc-mingw32/5.2.0/include-fixed]
+        collapse include dir [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/include] ==> [C:/gcc/i686-pc-mingw32/include]
+        implicit include dirs: [C:/gcc/lib/gcc/i686-pc-mingw32/5.2.0/include;C:/gcc/lib/gcc/i686-pc-mingw32/5.2.0/include-fixed;C:/gcc/i686-pc-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-vzdu5c']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/gcc/bin/make.exe -f Makefile cmTC_4940b/fast]
+        ignore line: [C:/gcc/bin/make.exe  -f CMakeFiles/cmTC_4940b.dir/build.make CMakeFiles/cmTC_4940b.dir/build]
+        ignore line: [make.exe[1]: Entering directory 'C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-vzdu5c']
+        ignore line: [Building C object CMakeFiles/cmTC_4940b.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:/gcc/bin/gcc.exe   -v -o CMakeFiles/cmTC_4940b.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCCompilerABI.c"]
+        ignore line: [Built by Equation Solution <http://www.Equation.com>.]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\gcc\\bin\\gcc.exe]
+        ignore line: [Target: i686-pc-mingw32]
+        ignore line: [Configured with: ../gcc-5.2.0-mingw/configure --host=i686-pc-mingw32 --build=x86_64-unknown-linux-gnu --target=i686-pc-mingw32 --prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gcc/5.2.0 --with-gcc --with-gnu-as --with-gnu-ld --with-cloog=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/cloog --with-gmp=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gmp --with-mpfr=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpfr --with-mpc=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpc --with-isl=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/isl --enable-cloog-backend=isl --with-sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/6-20150531 --disable-shared --disable-nls --disable-tls --disable-libgcc2 --disable-win32-registry --enable-build-with-cxx --enable-libquadmath-support --enable-libquadmath --enable-languages=c,c++,fortran --disable-checking --enable-libgomp --enable-threads=win32 --enable-lto --enable-static --enable-shared=lto-plugin --enable-sjlj-exceptions --enable-plugins --enable-ld=yes]
+        ignore line: [Thread model: win32]
+        ignore line: [gcc version 5.2.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4940b.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro']
+        ignore line: [ c:/gcc/bin/../libexec/gcc/i686-pc-mingw32/5.2.0/cc1.exe -quiet -v -iprefix c:\\gcc\\bin\\../lib/gcc/i686-pc-mingw32/5.2.0/ C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=pentiumpro -auxbase-strip CMakeFiles/cmTC_4940b.dir/CMakeCCompilerABI.c.obj -version -o C:\\Users\\fotava\\AppData\\Local\\Temp\\cc3DZG3J.s]
+        ignore line: [GNU C11 (GCC) version 5.2.0 (i686-pc-mingw32)]
+        ignore line: [	compiled by GNU C version 6.0.0 20150531 (experimental)  GMP version 5.1.0  MPFR version 3.1.1  MPC version 1.0.1]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "c:/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/5.2.0/include"]
+        ignore line: [ignoring nonexistent directory "/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/6-20150531/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gcc/5.2.0/lib/gcc/i686-pc-mingw32/5.2.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "c:/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/5.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "c:/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/6-20150531/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ c:\\gcc\\bin\\../lib/gcc/i686-pc-mingw32/5.2.0/include]
+        ignore line: [ c:\\gcc\\bin\\../lib/gcc/i686-pc-mingw32/5.2.0/include-fixed]
+        ignore line: [ c:\\gcc\\bin\\../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C11 (GCC) version 5.2.0 (i686-pc-mingw32)]
+        ignore line: [	compiled by GNU C version 6.0.0 20150531 (experimental)  GMP version 5.1.0  MPFR version 3.1.1  MPC version 1.0.1]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 1d1bf4db216a02ae3b7e5a705a51f2d4]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4940b.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro']
+        ignore line: [ c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_4940b.dir/CMakeCCompilerABI.c.obj C:\\Users\\fotava\\AppData\\Local\\Temp\\cc3DZG3J.s]
+        ignore line: [GNU assembler version 2.24.51 (i686-pc-mingw32) using BFD version (GNU Binutils) 2.24.51.20140712]
+        ignore line: [COMPILER_PATH=c:/gcc/bin/../libexec/gcc/i686-pc-mingw32/5.2.0/]
+        ignore line: [c:/gcc/bin/../libexec/gcc/]
+        ignore line: [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/bin/]
+        ignore line: [EQ_LIBRARY_PATH=c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/]
+        ignore line: [c:/gcc/bin/../lib/gcc/]
+        ignore line: [C:/Users/fotava/gcc/i686-pc-mingw32/lib/]
+        ignore line: [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/lib/]
+        ignore line: [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4940b.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro']
+        ignore line: [Linking C executable cmTC_4940b.exe]
+        ignore line: ["C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_4940b.dir/objects.a]
+        ignore line: [C:/gcc/bin/ar.exe qc CMakeFiles/cmTC_4940b.dir/objects.a @CMakeFiles/cmTC_4940b.dir/objects1.rsp]
+        ignore line: [C:/gcc/bin/gcc.exe  -v -Wl -v -Wl --whole-archive CMakeFiles/cmTC_4940b.dir/objects.a -Wl --no-whole-archive -o cmTC_4940b.exe -Wl --out-implib libcmTC_4940b.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [Built by Equation Solution <http://www.Equation.com>.]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:/gcc/bin/gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=c:/gcc/bin/../libexec/gcc/i686-pc-mingw32/5.2.0/lto-wrapper.exe]
+        ignore line: [Target: i686-pc-mingw32]
+        ignore line: [Configured with: ../gcc-5.2.0-mingw/configure --host=i686-pc-mingw32 --build=x86_64-unknown-linux-gnu --target=i686-pc-mingw32 --prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gcc/5.2.0 --with-gcc --with-gnu-as --with-gnu-ld --with-cloog=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/cloog --with-gmp=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gmp --with-mpfr=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpfr --with-mpc=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpc --with-isl=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/isl --enable-cloog-backend=isl --with-sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/6-20150531 --disable-shared --disable-nls --disable-tls --disable-libgcc2 --disable-win32-registry --enable-build-with-cxx --enable-libquadmath-support --enable-libquadmath --enable-languages=c,c++,fortran --disable-checking --enable-libgomp --enable-threads=win32 --enable-lto --enable-static --enable-shared=lto-plugin --enable-sjlj-exceptions --enable-plugins --enable-ld=yes]
+        ignore line: [Thread model: win32]
+        ignore line: [gcc version 5.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=c:/gcc/bin/../libexec/gcc/i686-pc-mingw32/5.2.0/]
+        ignore line: [c:/gcc/bin/../libexec/gcc/]
+        ignore line: [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/bin/]
+        ignore line: [EQ_LIBRARY_PATH=c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/]
+        ignore line: [c:/gcc/bin/../lib/gcc/]
+        ignore line: [C:/Users/fotava/gcc/i686-pc-mingw32/lib/]
+        ignore line: [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/lib/]
+        ignore line: [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4940b.exe' '-mtune=generic' '-march=pentiumpro']
+        link line: [ c:/gcc/bin/../libexec/gcc/i686-pc-mingw32/5.2.0/collect2.exe -plugin c:/gcc/bin/../libexec/gcc/i686-pc-mingw32/5.2.0/liblto_plugin-0.dll -plugin-opt=c:/gcc/bin/../libexec/gcc/i686-pc-mingw32/5.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\fotava\\AppData\\Local\\Temp\\ccUEQ54l.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/6-20150531 -Bdynamic -o cmTC_4940b.exe C:/Users/fotava/gcc/i686-pc-mingw32/lib/crt2.o c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/crtbegin.o -Lc:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0 -Lc:/gcc/bin/../lib/gcc -LC:/Users/fotava/gcc/i686-pc-mingw32/lib -Lc:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/lib -Lc:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../.. -v --whole-archive CMakeFiles/cmTC_4940b.dir/objects.a --no-whole-archive --out-implib libcmTC_4940b.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/crtend.o]
+          arg [c:/gcc/bin/../libexec/gcc/i686-pc-mingw32/5.2.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [c:/gcc/bin/../libexec/gcc/i686-pc-mingw32/5.2.0/liblto_plugin-0.dll] ==> ignore
+          arg [-plugin-opt=c:/gcc/bin/../libexec/gcc/i686-pc-mingw32/5.2.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\fotava\\AppData\\Local\\Temp\\ccUEQ54l.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [--sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/6-20150531] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_4940b.exe] ==> ignore
+          arg [C:/Users/fotava/gcc/i686-pc-mingw32/lib/crt2.o] ==> obj [C:/Users/fotava/gcc/i686-pc-mingw32/lib/crt2.o]
+          arg [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/crtbegin.o] ==> obj [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/crtbegin.o]
+          arg [-Lc:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0] ==> dir [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0]
+          arg [-Lc:/gcc/bin/../lib/gcc] ==> dir [c:/gcc/bin/../lib/gcc]
+          arg [-LC:/Users/fotava/gcc/i686-pc-mingw32/lib] ==> dir [C:/Users/fotava/gcc/i686-pc-mingw32/lib]
+          arg [-Lc:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/lib] ==> dir [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/lib]
+          arg [-Lc:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../..] ==> dir [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../..]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles/cmTC_4940b.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_4940b.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/crtend.o] ==> obj [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/crtend.o]
+        ignore line: [collect2 version 5.2.0]
+        ignore line: [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/bin/ld.exe -plugin c:/gcc/bin/../libexec/gcc/i686-pc-mingw32/5.2.0/liblto_plugin-0.dll -plugin-opt=c:/gcc/bin/../libexec/gcc/i686-pc-mingw32/5.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\fotava\\AppData\\Local\\Temp\\ccUEQ54l.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/6-20150531 -Bdynamic -o cmTC_4940b.exe C:/Users/fotava/gcc/i686-pc-mingw32/lib/crt2.o c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/crtbegin.o -Lc:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0 -Lc:/gcc/bin/../lib/gcc -LC:/Users/fotava/gcc/i686-pc-mingw32/lib -Lc:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/lib -Lc:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../.. -v --whole-archive CMakeFiles/cmTC_4940b.dir/objects.a --no-whole-archive --out-implib libcmTC_4940b.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/crtend.o]
+        linker tool for 'C': c:/gcc/i686-pc-mingw32/bin/ld.exe
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/crtbegin.o] ==> [C:/gcc/lib/gcc/i686-pc-mingw32/5.2.0/crtbegin.o]
+        collapse obj [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/crtend.o] ==> [C:/gcc/lib/gcc/i686-pc-mingw32/5.2.0/crtend.o]
+        collapse library dir [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0] ==> [C:/gcc/lib/gcc/i686-pc-mingw32/5.2.0]
+        collapse library dir [c:/gcc/bin/../lib/gcc] ==> [C:/gcc/lib/gcc]
+        collapse library dir [C:/Users/fotava/gcc/i686-pc-mingw32/lib] ==> [C:/Users/fotava/gcc/i686-pc-mingw32/lib]
+        collapse library dir [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/lib] ==> [C:/gcc/i686-pc-mingw32/lib]
+        collapse library dir [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../..] ==> [C:/gcc/lib]
+        implicit libs: [mingw32;gcc;moldname;mingwex;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex]
+        implicit objs: [C:/Users/fotava/gcc/i686-pc-mingw32/lib/crt2.o;C:/gcc/lib/gcc/i686-pc-mingw32/5.2.0/crtbegin.o;C:/gcc/lib/gcc/i686-pc-mingw32/5.2.0/crtend.o]
+        implicit dirs: [C:/gcc/lib/gcc/i686-pc-mingw32/5.2.0;C:/gcc/lib/gcc;C:/Users/fotava/gcc/i686-pc-mingw32/lib;C:/gcc/i686-pc-mingw32/lib;C:/gcc/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "c:/gcc/i686-pc-mingw32/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.24.51.20140712
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-34hes5"
+      binary: "C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-34hes5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-34hes5'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/gcc/bin/make.exe -f Makefile cmTC_67325/fast
+        C:/gcc/bin/make.exe  -f CMakeFiles/cmTC_67325.dir/build.make CMakeFiles/cmTC_67325.dir/build
+        make.exe[1]: Entering directory 'C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-34hes5'
+        Building CXX object CMakeFiles/cmTC_67325.dir/CMakeCXXCompilerABI.cpp.obj
+        C:/gcc/bin/g++.exe   -v -o CMakeFiles/cmTC_67325.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp"
+        Built by Equation Solution <http://www.Equation.com>.
+        Using built-in specs.
+        COLLECT_GCC=C:\\gcc\\bin\\g++.exe
+        Target: i686-pc-mingw32
+        Configured with: ../gcc-5.2.0-mingw/configure --host=i686-pc-mingw32 --build=x86_64-unknown-linux-gnu --target=i686-pc-mingw32 --prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gcc/5.2.0 --with-gcc --with-gnu-as --with-gnu-ld --with-cloog=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/cloog --with-gmp=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gmp --with-mpfr=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpfr --with-mpc=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpc --with-isl=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/isl --enable-cloog-backend=isl --with-sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/6-20150531 --disable-shared --disable-nls --disable-tls --disable-libgcc2 --disable-win32-registry --enable-build-with-cxx --enable-libquadmath-support --enable-libquadmath --enable-languages=c,c++,fortran --disable-checking --enable-libgomp --enable-threads=win32 --enable-lto --enable-static --enable-shared=lto-plugin --enable-sjlj-exceptions --enable-plugins --enable-ld=yes
+        Thread model: win32
+        gcc version 5.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_67325.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro'
+         c:/gcc/bin/../libexec/gcc/i686-pc-mingw32/5.2.0/cc1plus.exe -quiet -v -iprefix c:\\gcc\\bin\\../lib/gcc/i686-pc-mingw32/5.2.0/ C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=pentiumpro -auxbase-strip CMakeFiles/cmTC_67325.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\fotava\\AppData\\Local\\Temp\\ccPRqg4k.s
+        GNU C++ (GCC) version 5.2.0 (i686-pc-mingw32)
+        	compiled by GNU C version 6.0.0 20150531 (experimental), GMP version 5.1.0, MPFR version 3.1.1, MPC version 1.0.1
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "c:/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/5.2.0/../../../../include/c++/5.2.0"
+        ignoring duplicate directory "c:/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/5.2.0/../../../../include/c++/5.2.0/i686-pc-mingw32"
+        ignoring duplicate directory "c:/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/5.2.0/../../../../include/c++/5.2.0/backward"
+        ignoring duplicate directory "c:/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/5.2.0/include"
+        ignoring nonexistent directory "/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/6-20150531/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gcc/5.2.0/lib/gcc/i686-pc-mingw32/5.2.0/../../../../include"
+        ignoring duplicate directory "c:/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/5.2.0/include-fixed"
+        ignoring duplicate directory "c:/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/include"
+        ignoring nonexistent directory "/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/6-20150531/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         c:\\gcc\\bin\\../lib/gcc/i686-pc-mingw32/5.2.0/../../../../include/c++/5.2.0
+         c:\\gcc\\bin\\../lib/gcc/i686-pc-mingw32/5.2.0/../../../../include/c++/5.2.0/i686-pc-mingw32
+         c:\\gcc\\bin\\../lib/gcc/i686-pc-mingw32/5.2.0/../../../../include/c++/5.2.0/backward
+         c:\\gcc\\bin\\../lib/gcc/i686-pc-mingw32/5.2.0/include
+         c:\\gcc\\bin\\../lib/gcc/i686-pc-mingw32/5.2.0/include-fixed
+         c:\\gcc\\bin\\../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/include
+        End of search list.
+        GNU C++ (GCC) version 5.2.0 (i686-pc-mingw32)
+        	compiled by GNU C version 6.0.0 20150531 (experimental), GMP version 5.1.0, MPFR version 3.1.1, MPC version 1.0.1
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 2012e96e41307a1cf358b21c5f0dee29
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_67325.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro'
+         c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_67325.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\fotava\\AppData\\Local\\Temp\\ccPRqg4k.s
+        GNU assembler version 2.24.51 (i686-pc-mingw32) using BFD version (GNU Binutils) 2.24.51.20140712
+        COMPILER_PATH=c:/gcc/bin/../libexec/gcc/i686-pc-mingw32/5.2.0/;c:/gcc/bin/../libexec/gcc/;c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/bin/
+        EQ_LIBRARY_PATH=c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/;c:/gcc/bin/../lib/gcc/;C:/Users/fotava/gcc/i686-pc-mingw32/lib/;c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/lib/;c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_67325.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro'
+        Linking CXX executable cmTC_67325.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_67325.dir/objects.a
+        C:/gcc/bin/ar.exe qc CMakeFiles/cmTC_67325.dir/objects.a @CMakeFiles/cmTC_67325.dir/objects1.rsp
+        C:/gcc/bin/g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles/cmTC_67325.dir/objects.a -Wl,--no-whole-archive -o cmTC_67325.exe -Wl,--out-implib,libcmTC_67325.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        Built by Equation Solution <http://www.Equation.com>.
+        Using built-in specs.
+        COLLECT_GCC=C:/gcc/bin/g++.exe
+        COLLECT_LTO_WRAPPER=c:/gcc/bin/../libexec/gcc/i686-pc-mingw32/5.2.0/lto-wrapper.exe
+        Target: i686-pc-mingw32
+        Configured with: ../gcc-5.2.0-mingw/configure --host=i686-pc-mingw32 --build=x86_64-unknown-linux-gnu --target=i686-pc-mingw32 --prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gcc/5.2.0 --with-gcc --with-gnu-as --with-gnu-ld --with-cloog=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/cloog --with-gmp=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gmp --with-mpfr=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpfr --with-mpc=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpc --with-isl=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/isl --enable-cloog-backend=isl --with-sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/6-20150531 --disable-shared --disable-nls --disable-tls --disable-libgcc2 --disable-win32-registry --enable-build-with-cxx --enable-libquadmath-support --enable-libquadmath --enable-languages=c,c++,fortran --disable-checking --enable-libgomp --enable-threads=win32 --enable-lto --enable-static --enable-shared=lto-plugin --enable-sjlj-exceptions --enable-plugins --enable-ld=yes
+        Thread model: win32
+        gcc version 5.2.0 (GCC) 
+        COMPILER_PATH=c:/gcc/bin/../libexec/gcc/i686-pc-mingw32/5.2.0/;c:/gcc/bin/../libexec/gcc/;c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/bin/
+        EQ_LIBRARY_PATH=c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/;c:/gcc/bin/../lib/gcc/;C:/Users/fotava/gcc/i686-pc-mingw32/lib/;c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/lib/;c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_67325.exe' '-mtune=generic' '-march=pentiumpro'
+         c:/gcc/bin/../libexec/gcc/i686-pc-mingw32/5.2.0/collect2.exe -plugin c:/gcc/bin/../libexec/gcc/i686-pc-mingw32/5.2.0/liblto_plugin-0.dll -plugin-opt=c:/gcc/bin/../libexec/gcc/i686-pc-mingw32/5.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\fotava\\AppData\\Local\\Temp\\ccN4X2cR.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/6-20150531 -Bdynamic -o cmTC_67325.exe C:/Users/fotava/gcc/i686-pc-mingw32/lib/crt2.o c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/crtbegin.o -Lc:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0 -Lc:/gcc/bin/../lib/gcc -LC:/Users/fotava/gcc/i686-pc-mingw32/lib -Lc:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/lib -Lc:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../.. -v --whole-archive CMakeFiles/cmTC_67325.dir/objects.a --no-whole-archive --out-implib libcmTC_67325.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/crtend.o
+        collect2 version 5.2.0
+        c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/bin/ld.exe -plugin c:/gcc/bin/../libexec/gcc/i686-pc-mingw32/5.2.0/liblto_plugin-0.dll -plugin-opt=c:/gcc/bin/../libexec/gcc/i686-pc-mingw32/5.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\fotava\\AppData\\Local\\Temp\\ccN4X2cR.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/6-20150531 -Bdynamic -o cmTC_67325.exe C:/Users/fotava/gcc/i686-pc-mingw32/lib/crt2.o c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/crtbegin.o -Lc:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0 -Lc:/gcc/bin/../lib/gcc -LC:/Users/fotava/gcc/i686-pc-mingw32/lib -Lc:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/lib -Lc:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../.. -v --whole-archive CMakeFiles/cmTC_67325.dir/objects.a --no-whole-archive --out-implib libcmTC_67325.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/crtend.o
+        GNU ld (GNU Binutils) 2.24.51.20140712
+        make.exe[1]: Leaving directory 'C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-34hes5'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:134 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../include/c++/5.2.0]
+          add: [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../include/c++/5.2.0/i686-pc-mingw32]
+          add: [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../include/c++/5.2.0/backward]
+          add: [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/include]
+          add: [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/include-fixed]
+          add: [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/include]
+        end of search list found
+        collapse include dir [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../include/c++/5.2.0] ==> [C:/gcc/include/c++/5.2.0]
+        collapse include dir [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../include/c++/5.2.0/i686-pc-mingw32] ==> [C:/gcc/include/c++/5.2.0/i686-pc-mingw32]
+        collapse include dir [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../include/c++/5.2.0/backward] ==> [C:/gcc/include/c++/5.2.0/backward]
+        collapse include dir [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/include] ==> [C:/gcc/lib/gcc/i686-pc-mingw32/5.2.0/include]
+        collapse include dir [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/include-fixed] ==> [C:/gcc/lib/gcc/i686-pc-mingw32/5.2.0/include-fixed]
+        collapse include dir [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/include] ==> [C:/gcc/i686-pc-mingw32/include]
+        implicit include dirs: [C:/gcc/include/c++/5.2.0;C:/gcc/include/c++/5.2.0/i686-pc-mingw32;C:/gcc/include/c++/5.2.0/backward;C:/gcc/lib/gcc/i686-pc-mingw32/5.2.0/include;C:/gcc/lib/gcc/i686-pc-mingw32/5.2.0/include-fixed;C:/gcc/i686-pc-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-34hes5']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/gcc/bin/make.exe -f Makefile cmTC_67325/fast]
+        ignore line: [C:/gcc/bin/make.exe  -f CMakeFiles/cmTC_67325.dir/build.make CMakeFiles/cmTC_67325.dir/build]
+        ignore line: [make.exe[1]: Entering directory 'C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-34hes5']
+        ignore line: [Building CXX object CMakeFiles/cmTC_67325.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:/gcc/bin/g++.exe   -v -o CMakeFiles/cmTC_67325.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [Built by Equation Solution <http://www.Equation.com>.]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\gcc\\bin\\g++.exe]
+        ignore line: [Target: i686-pc-mingw32]
+        ignore line: [Configured with: ../gcc-5.2.0-mingw/configure --host=i686-pc-mingw32 --build=x86_64-unknown-linux-gnu --target=i686-pc-mingw32 --prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gcc/5.2.0 --with-gcc --with-gnu-as --with-gnu-ld --with-cloog=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/cloog --with-gmp=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gmp --with-mpfr=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpfr --with-mpc=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpc --with-isl=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/isl --enable-cloog-backend=isl --with-sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/6-20150531 --disable-shared --disable-nls --disable-tls --disable-libgcc2 --disable-win32-registry --enable-build-with-cxx --enable-libquadmath-support --enable-libquadmath --enable-languages=c,c++,fortran --disable-checking --enable-libgomp --enable-threads=win32 --enable-lto --enable-static --enable-shared=lto-plugin --enable-sjlj-exceptions --enable-plugins --enable-ld=yes]
+        ignore line: [Thread model: win32]
+        ignore line: [gcc version 5.2.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_67325.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro']
+        ignore line: [ c:/gcc/bin/../libexec/gcc/i686-pc-mingw32/5.2.0/cc1plus.exe -quiet -v -iprefix c:\\gcc\\bin\\../lib/gcc/i686-pc-mingw32/5.2.0/ C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=pentiumpro -auxbase-strip CMakeFiles/cmTC_67325.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\fotava\\AppData\\Local\\Temp\\ccPRqg4k.s]
+        ignore line: [GNU C++ (GCC) version 5.2.0 (i686-pc-mingw32)]
+        ignore line: [	compiled by GNU C version 6.0.0 20150531 (experimental)  GMP version 5.1.0  MPFR version 3.1.1  MPC version 1.0.1]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "c:/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/5.2.0/../../../../include/c++/5.2.0"]
+        ignore line: [ignoring duplicate directory "c:/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/5.2.0/../../../../include/c++/5.2.0/i686-pc-mingw32"]
+        ignore line: [ignoring duplicate directory "c:/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/5.2.0/../../../../include/c++/5.2.0/backward"]
+        ignore line: [ignoring duplicate directory "c:/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/5.2.0/include"]
+        ignore line: [ignoring nonexistent directory "/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/6-20150531/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gcc/5.2.0/lib/gcc/i686-pc-mingw32/5.2.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "c:/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/5.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "c:/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/6-20150531/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ c:\\gcc\\bin\\../lib/gcc/i686-pc-mingw32/5.2.0/../../../../include/c++/5.2.0]
+        ignore line: [ c:\\gcc\\bin\\../lib/gcc/i686-pc-mingw32/5.2.0/../../../../include/c++/5.2.0/i686-pc-mingw32]
+        ignore line: [ c:\\gcc\\bin\\../lib/gcc/i686-pc-mingw32/5.2.0/../../../../include/c++/5.2.0/backward]
+        ignore line: [ c:\\gcc\\bin\\../lib/gcc/i686-pc-mingw32/5.2.0/include]
+        ignore line: [ c:\\gcc\\bin\\../lib/gcc/i686-pc-mingw32/5.2.0/include-fixed]
+        ignore line: [ c:\\gcc\\bin\\../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++ (GCC) version 5.2.0 (i686-pc-mingw32)]
+        ignore line: [	compiled by GNU C version 6.0.0 20150531 (experimental)  GMP version 5.1.0  MPFR version 3.1.1  MPC version 1.0.1]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 2012e96e41307a1cf358b21c5f0dee29]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_67325.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro']
+        ignore line: [ c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_67325.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\fotava\\AppData\\Local\\Temp\\ccPRqg4k.s]
+        ignore line: [GNU assembler version 2.24.51 (i686-pc-mingw32) using BFD version (GNU Binutils) 2.24.51.20140712]
+        ignore line: [COMPILER_PATH=c:/gcc/bin/../libexec/gcc/i686-pc-mingw32/5.2.0/]
+        ignore line: [c:/gcc/bin/../libexec/gcc/]
+        ignore line: [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/bin/]
+        ignore line: [EQ_LIBRARY_PATH=c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/]
+        ignore line: [c:/gcc/bin/../lib/gcc/]
+        ignore line: [C:/Users/fotava/gcc/i686-pc-mingw32/lib/]
+        ignore line: [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/lib/]
+        ignore line: [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_67325.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro']
+        ignore line: [Linking CXX executable cmTC_67325.exe]
+        ignore line: ["C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_67325.dir/objects.a]
+        ignore line: [C:/gcc/bin/ar.exe qc CMakeFiles/cmTC_67325.dir/objects.a @CMakeFiles/cmTC_67325.dir/objects1.rsp]
+        ignore line: [C:/gcc/bin/g++.exe  -v -Wl -v -Wl --whole-archive CMakeFiles/cmTC_67325.dir/objects.a -Wl --no-whole-archive -o cmTC_67325.exe -Wl --out-implib libcmTC_67325.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [Built by Equation Solution <http://www.Equation.com>.]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:/gcc/bin/g++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=c:/gcc/bin/../libexec/gcc/i686-pc-mingw32/5.2.0/lto-wrapper.exe]
+        ignore line: [Target: i686-pc-mingw32]
+        ignore line: [Configured with: ../gcc-5.2.0-mingw/configure --host=i686-pc-mingw32 --build=x86_64-unknown-linux-gnu --target=i686-pc-mingw32 --prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gcc/5.2.0 --with-gcc --with-gnu-as --with-gnu-ld --with-cloog=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/cloog --with-gmp=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gmp --with-mpfr=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpfr --with-mpc=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpc --with-isl=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/isl --enable-cloog-backend=isl --with-sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/6-20150531 --disable-shared --disable-nls --disable-tls --disable-libgcc2 --disable-win32-registry --enable-build-with-cxx --enable-libquadmath-support --enable-libquadmath --enable-languages=c,c++,fortran --disable-checking --enable-libgomp --enable-threads=win32 --enable-lto --enable-static --enable-shared=lto-plugin --enable-sjlj-exceptions --enable-plugins --enable-ld=yes]
+        ignore line: [Thread model: win32]
+        ignore line: [gcc version 5.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=c:/gcc/bin/../libexec/gcc/i686-pc-mingw32/5.2.0/]
+        ignore line: [c:/gcc/bin/../libexec/gcc/]
+        ignore line: [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/bin/]
+        ignore line: [EQ_LIBRARY_PATH=c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/]
+        ignore line: [c:/gcc/bin/../lib/gcc/]
+        ignore line: [C:/Users/fotava/gcc/i686-pc-mingw32/lib/]
+        ignore line: [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/lib/]
+        ignore line: [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_67325.exe' '-mtune=generic' '-march=pentiumpro']
+        link line: [ c:/gcc/bin/../libexec/gcc/i686-pc-mingw32/5.2.0/collect2.exe -plugin c:/gcc/bin/../libexec/gcc/i686-pc-mingw32/5.2.0/liblto_plugin-0.dll -plugin-opt=c:/gcc/bin/../libexec/gcc/i686-pc-mingw32/5.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\fotava\\AppData\\Local\\Temp\\ccN4X2cR.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/6-20150531 -Bdynamic -o cmTC_67325.exe C:/Users/fotava/gcc/i686-pc-mingw32/lib/crt2.o c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/crtbegin.o -Lc:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0 -Lc:/gcc/bin/../lib/gcc -LC:/Users/fotava/gcc/i686-pc-mingw32/lib -Lc:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/lib -Lc:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../.. -v --whole-archive CMakeFiles/cmTC_67325.dir/objects.a --no-whole-archive --out-implib libcmTC_67325.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/crtend.o]
+          arg [c:/gcc/bin/../libexec/gcc/i686-pc-mingw32/5.2.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [c:/gcc/bin/../libexec/gcc/i686-pc-mingw32/5.2.0/liblto_plugin-0.dll] ==> ignore
+          arg [-plugin-opt=c:/gcc/bin/../libexec/gcc/i686-pc-mingw32/5.2.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\fotava\\AppData\\Local\\Temp\\ccN4X2cR.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [--sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/6-20150531] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_67325.exe] ==> ignore
+          arg [C:/Users/fotava/gcc/i686-pc-mingw32/lib/crt2.o] ==> obj [C:/Users/fotava/gcc/i686-pc-mingw32/lib/crt2.o]
+          arg [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/crtbegin.o] ==> obj [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/crtbegin.o]
+          arg [-Lc:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0] ==> dir [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0]
+          arg [-Lc:/gcc/bin/../lib/gcc] ==> dir [c:/gcc/bin/../lib/gcc]
+          arg [-LC:/Users/fotava/gcc/i686-pc-mingw32/lib] ==> dir [C:/Users/fotava/gcc/i686-pc-mingw32/lib]
+          arg [-Lc:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/lib] ==> dir [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/lib]
+          arg [-Lc:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../..] ==> dir [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../..]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles/cmTC_67325.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_67325.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/crtend.o] ==> obj [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/crtend.o]
+        ignore line: [collect2 version 5.2.0]
+        ignore line: [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/bin/ld.exe -plugin c:/gcc/bin/../libexec/gcc/i686-pc-mingw32/5.2.0/liblto_plugin-0.dll -plugin-opt=c:/gcc/bin/../libexec/gcc/i686-pc-mingw32/5.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\fotava\\AppData\\Local\\Temp\\ccN4X2cR.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/6-20150531 -Bdynamic -o cmTC_67325.exe C:/Users/fotava/gcc/i686-pc-mingw32/lib/crt2.o c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/crtbegin.o -Lc:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0 -Lc:/gcc/bin/../lib/gcc -LC:/Users/fotava/gcc/i686-pc-mingw32/lib -Lc:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/lib -Lc:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../.. -v --whole-archive CMakeFiles/cmTC_67325.dir/objects.a --no-whole-archive --out-implib libcmTC_67325.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/crtend.o]
+        linker tool for 'CXX': c:/gcc/i686-pc-mingw32/bin/ld.exe
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/crtbegin.o] ==> [C:/gcc/lib/gcc/i686-pc-mingw32/5.2.0/crtbegin.o]
+        collapse obj [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/crtend.o] ==> [C:/gcc/lib/gcc/i686-pc-mingw32/5.2.0/crtend.o]
+        collapse library dir [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0] ==> [C:/gcc/lib/gcc/i686-pc-mingw32/5.2.0]
+        collapse library dir [c:/gcc/bin/../lib/gcc] ==> [C:/gcc/lib/gcc]
+        collapse library dir [C:/Users/fotava/gcc/i686-pc-mingw32/lib] ==> [C:/Users/fotava/gcc/i686-pc-mingw32/lib]
+        collapse library dir [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/lib] ==> [C:/gcc/i686-pc-mingw32/lib]
+        collapse library dir [c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../..] ==> [C:/gcc/lib]
+        implicit libs: [stdc++;mingw32;gcc;moldname;mingwex;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex]
+        implicit objs: [C:/Users/fotava/gcc/i686-pc-mingw32/lib/crt2.o;C:/gcc/lib/gcc/i686-pc-mingw32/5.2.0/crtbegin.o;C:/gcc/lib/gcc/i686-pc-mingw32/5.2.0/crtend.o]
+        implicit dirs: [C:/gcc/lib/gcc/i686-pc-mingw32/5.2.0;C:/gcc/lib/gcc;C:/Users/fotava/gcc/i686-pc-mingw32/lib;C:/gcc/i686-pc-mingw32/lib;C:/gcc/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "c:/gcc/i686-pc-mingw32/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.24.51.20140712
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "thirdparty/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-bnnpnm"
+      binary: "C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-bnnpnm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/fotava/Documents/OpenGL/Project/thirdparty/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-bnnpnm'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/gcc/bin/make.exe -f Makefile cmTC_5d56c/fast
+        C:/gcc/bin/make.exe  -f CMakeFiles/cmTC_5d56c.dir/build.make CMakeFiles/cmTC_5d56c.dir/build
+        make.exe[1]: Entering directory 'C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-bnnpnm'
+        Building C object CMakeFiles/cmTC_5d56c.dir/src.c.obj
+        C:/gcc/bin/gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_5d56c.dir/src.c.obj -c C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-bnnpnm/src.c
+        C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-bnnpnm/src.c:1:21: fatal error: pthread.h: No such file or directory
+        compilation terminated.
+        CMakeFiles/cmTC_5d56c.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_5d56c.dir/src.c.obj' failed
+        make.exe[1]: *** [CMakeFiles/cmTC_5d56c.dir/src.c.obj] Error 1
+        make.exe[1]: Leaving directory 'C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-bnnpnm'
+        Makefile:127: recipe for target 'cmTC_5d56c/fast' failed
+        make.exe: *** [cmTC_5d56c/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "thirdparty/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-hnjt57"
+      binary: "C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-hnjt57"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/fotava/Documents/OpenGL/Project/thirdparty/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-hnjt57'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/gcc/bin/make.exe -f Makefile cmTC_1ea3b/fast
+        C:/gcc/bin/make.exe  -f CMakeFiles/cmTC_1ea3b.dir/build.make CMakeFiles/cmTC_1ea3b.dir/build
+        make.exe[1]: Entering directory 'C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-hnjt57'
+        Building C object CMakeFiles/cmTC_1ea3b.dir/CheckFunctionExists.c.obj
+        C:/gcc/bin/gcc.exe   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_1ea3b.dir/CheckFunctionExists.c.obj -c C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-hnjt57/CheckFunctionExists.c
+        Linking C executable cmTC_1ea3b.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_1ea3b.dir/objects.a
+        C:/gcc/bin/ar.exe qc CMakeFiles/cmTC_1ea3b.dir/objects.a @CMakeFiles/cmTC_1ea3b.dir/objects1.rsp
+        C:/gcc/bin/gcc.exe  -DCHECK_FUNCTION_EXISTS=pthread_create -Wl,--whole-archive CMakeFiles/cmTC_1ea3b.dir/objects.a -Wl,--no-whole-archive -o cmTC_1ea3b.exe -Wl,--out-implib,libcmTC_1ea3b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_1ea3b.dir/linkLibs.rsp
+        c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/bin/ld.exe: cannot find -lpthreads
+        collect2.exe: error: ld returned 1 exit status
+        CMakeFiles/cmTC_1ea3b.dir/build.make:99: recipe for target 'cmTC_1ea3b.exe' failed
+        make.exe[1]: *** [cmTC_1ea3b.exe] Error 1
+        make.exe[1]: Leaving directory 'C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-hnjt57'
+        Makefile:127: recipe for target 'cmTC_1ea3b/fast' failed
+        make.exe: *** [cmTC_1ea3b/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "thirdparty/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-gnwv12"
+      binary: "C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-gnwv12"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/fotava/Documents/OpenGL/Project/thirdparty/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-gnwv12'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/gcc/bin/make.exe -f Makefile cmTC_37c80/fast
+        C:/gcc/bin/make.exe  -f CMakeFiles/cmTC_37c80.dir/build.make CMakeFiles/cmTC_37c80.dir/build
+        make.exe[1]: Entering directory 'C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-gnwv12'
+        Building C object CMakeFiles/cmTC_37c80.dir/CheckFunctionExists.c.obj
+        C:/gcc/bin/gcc.exe   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_37c80.dir/CheckFunctionExists.c.obj -c C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-gnwv12/CheckFunctionExists.c
+        Linking C executable cmTC_37c80.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_37c80.dir/objects.a
+        C:/gcc/bin/ar.exe qc CMakeFiles/cmTC_37c80.dir/objects.a @CMakeFiles/cmTC_37c80.dir/objects1.rsp
+        C:/gcc/bin/gcc.exe  -DCHECK_FUNCTION_EXISTS=pthread_create -Wl,--whole-archive CMakeFiles/cmTC_37c80.dir/objects.a -Wl,--no-whole-archive -o cmTC_37c80.exe -Wl,--out-implib,libcmTC_37c80.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_37c80.dir/linkLibs.rsp
+        c:/gcc/bin/../lib/gcc/i686-pc-mingw32/5.2.0/../../../../i686-pc-mingw32/bin/ld.exe: cannot find -lpthread
+        collect2.exe: error: ld returned 1 exit status
+        CMakeFiles/cmTC_37c80.dir/build.make:99: recipe for target 'cmTC_37c80.exe' failed
+        make.exe[1]: *** [cmTC_37c80.exe] Error 1
+        make.exe[1]: Leaving directory 'C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-gnwv12'
+        Makefile:127: recipe for target 'cmTC_37c80/fast' failed
+        make.exe: *** [cmTC_37c80/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake:136 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake:179 (_threads_check_flag_pthread)"
+      - "thirdparty/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Check if compiler accepts -pthread"
+    directories:
+      source: "C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-tpjh6w"
+      binary: "C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-tpjh6w"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/fotava/Documents/OpenGL/Project/thirdparty/glfw/CMake/modules"
+    buildResult:
+      variable: "THREADS_HAVE_PTHREAD_ARG"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-tpjh6w'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/gcc/bin/make.exe -f Makefile cmTC_71e8c/fast
+        C:/gcc/bin/make.exe  -f CMakeFiles/cmTC_71e8c.dir/build.make CMakeFiles/cmTC_71e8c.dir/build
+        make.exe[1]: Entering directory 'C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-tpjh6w'
+        Building C object CMakeFiles/cmTC_71e8c.dir/CheckForPthreads.c.obj
+        C:/gcc/bin/gcc.exe    -o CMakeFiles/cmTC_71e8c.dir/CheckForPthreads.c.obj -c C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-tpjh6w/CheckForPthreads.c
+        C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-tpjh6w/CheckForPthreads.c:1:21: fatal error: pthread.h: No such file or directory
+        compilation terminated.
+        CMakeFiles/cmTC_71e8c.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_71e8c.dir/CheckForPthreads.c.obj' failed
+        make.exe[1]: *** [CMakeFiles/cmTC_71e8c.dir/CheckForPthreads.c.obj] Error 1
+        make.exe[1]: Leaving directory 'C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-tpjh6w'
+        Makefile:127: recipe for target 'cmTC_71e8c/fast' failed
+        make.exe: *** [cmTC_71e8c/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "thirdparty/glfw/src/CMakeLists.txt:274 (check_include_file)"
+    checks:
+      - "Looking for dinput.h"
+    directories:
+      source: "C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-n4a5ob"
+      binary: "C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-n4a5ob"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/fotava/Documents/OpenGL/Project/thirdparty/glfw/CMake/modules"
+    buildResult:
+      variable: "DINPUT_H_FOUND"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-n4a5ob'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/gcc/bin/make.exe -f Makefile cmTC_3c5fd/fast
+        C:/gcc/bin/make.exe  -f CMakeFiles/cmTC_3c5fd.dir/build.make CMakeFiles/cmTC_3c5fd.dir/build
+        make.exe[1]: Entering directory 'C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-n4a5ob'
+        Building C object CMakeFiles/cmTC_3c5fd.dir/CheckIncludeFile.c.obj
+        C:/gcc/bin/gcc.exe    -o CMakeFiles/cmTC_3c5fd.dir/CheckIncludeFile.c.obj -c C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-n4a5ob/CheckIncludeFile.c
+        Linking C executable cmTC_3c5fd.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_3c5fd.dir/objects.a
+        C:/gcc/bin/ar.exe qc CMakeFiles/cmTC_3c5fd.dir/objects.a @CMakeFiles/cmTC_3c5fd.dir/objects1.rsp
+        C:/gcc/bin/gcc.exe -Wl,--whole-archive CMakeFiles/cmTC_3c5fd.dir/objects.a -Wl,--no-whole-archive -o cmTC_3c5fd.exe -Wl,--out-implib,libcmTC_3c5fd.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_3c5fd.dir/linkLibs.rsp
+        make.exe[1]: Leaving directory 'C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-n4a5ob'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "thirdparty/glfw/src/CMakeLists.txt:275 (check_include_file)"
+    checks:
+      - "Looking for xinput.h"
+    directories:
+      source: "C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-ng0eqv"
+      binary: "C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-ng0eqv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/fotava/Documents/OpenGL/Project/thirdparty/glfw/CMake/modules"
+    buildResult:
+      variable: "XINPUT_H_FOUND"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-ng0eqv'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/gcc/bin/make.exe -f Makefile cmTC_ca371/fast
+        C:/gcc/bin/make.exe  -f CMakeFiles/cmTC_ca371.dir/build.make CMakeFiles/cmTC_ca371.dir/build
+        make.exe[1]: Entering directory 'C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-ng0eqv'
+        Building C object CMakeFiles/cmTC_ca371.dir/CheckIncludeFile.c.obj
+        C:/gcc/bin/gcc.exe    -o CMakeFiles/cmTC_ca371.dir/CheckIncludeFile.c.obj -c C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-ng0eqv/CheckIncludeFile.c
+        Linking C executable cmTC_ca371.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_ca371.dir/objects.a
+        C:/gcc/bin/ar.exe qc CMakeFiles/cmTC_ca371.dir/objects.a @CMakeFiles/cmTC_ca371.dir/objects1.rsp
+        C:/gcc/bin/gcc.exe -Wl,--whole-archive CMakeFiles/cmTC_ca371.dir/objects.a -Wl,--no-whole-archive -o cmTC_ca371.exe -Wl,--out-implib,libcmTC_ca371.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_ca371.dir/linkLibs.rsp
+        make.exe[1]: Leaving directory 'C:/Users/fotava/Documents/OpenGL/Project/build/CMakeFiles/CMakeScratch/TryCompile-ng0eqv'
+        
+      exitCode: 0
+...

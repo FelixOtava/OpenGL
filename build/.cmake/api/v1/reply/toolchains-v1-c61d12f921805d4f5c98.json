@@ -1,0 +1,134 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"C:/gcc/lib/gcc/i686-pc-mingw32/5.2.0/include",
+						"C:/gcc/lib/gcc/i686-pc-mingw32/5.2.0/include-fixed",
+						"C:/gcc/i686-pc-mingw32/include"
+					],
+					"linkDirectories" : 
+					[
+						"C:/gcc/lib/gcc/i686-pc-mingw32/5.2.0",
+						"C:/gcc/lib/gcc",
+						"C:/Users/fotava/gcc/i686-pc-mingw32/lib",
+						"C:/gcc/i686-pc-mingw32/lib",
+						"C:/gcc/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex"
+					]
+				},
+				"path" : "C:/gcc/bin/gcc.exe",
+				"version" : "5.2.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"C:/gcc/include/c++/5.2.0",
+						"C:/gcc/include/c++/5.2.0/i686-pc-mingw32",
+						"C:/gcc/include/c++/5.2.0/backward",
+						"C:/gcc/lib/gcc/i686-pc-mingw32/5.2.0/include",
+						"C:/gcc/lib/gcc/i686-pc-mingw32/5.2.0/include-fixed",
+						"C:/gcc/i686-pc-mingw32/include"
+					],
+					"linkDirectories" : 
+					[
+						"C:/gcc/lib/gcc/i686-pc-mingw32/5.2.0",
+						"C:/gcc/lib/gcc",
+						"C:/Users/fotava/gcc/i686-pc-mingw32/lib",
+						"C:/gcc/i686-pc-mingw32/lib",
+						"C:/gcc/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"stdc++",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex"
+					]
+				},
+				"path" : "C:/gcc/bin/g++.exe",
+				"version" : "5.2.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm",
+				"ccm",
+				"cxxm",
+				"c++m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"implicit" : {},
+				"path" : "C:/gcc/bin/windres.exe"
+			},
+			"language" : "RC",
+			"sourceFileExtensions" : 
+			[
+				"rc",
+				"RC"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
